@@ -1,0 +1,93 @@
+body {
+  background-color: #f5f7f9;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #777;
+}
+
+.search-icon {
+  position: absolute;
+  top: 1px;
+  right: 30px;
+  font-size: 130%;
+  border: 0px;
+  border-left: 1px solid #ddd;
+  padding: 0px 0px 0px 11px;
+  color: #555;
+  line-height: 46px;
+  height: 44px;
+  background-color: transparent;
+  outline: none;
+}
+
+a.search-icon:hover {
+  color: #777;
+}
+
+li.counter {
+  padding: 15px 10px 15px 10px;
+  background-color: white;
+  color: #555;
+}
+
+ul.results {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 25px;
+}
+
+ul.results li {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0px 8px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ul.results li:last-child {
+  border-bottom: 0px;
+}
+
+p.error {
+  color: red;
+  padding-top: 10px;
+}
+
+img.thumb {
+  padding-right: 15px;
+  max-width: 64px;
+  height: auto;
+}
+
+.form-control:focus {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.getAuthtoken {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  bottom: 0px;
+  width: 50%;
+  height: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+}
+
+.getAuthtoken > iframe {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  bottom: 0px;
+  margin: auto;
+  border: 0px;
+}
